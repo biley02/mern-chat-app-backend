@@ -1,0 +1,27 @@
+{
+  "name": "mern-chat-app",
+  "version": "1.0.0",
+  "description": "a mern stack chat app",
+  "main": "server.js",
+  "engine": {
+    "node": "14.16.0",
+    "npm": "6.14.11"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "biley",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2",
+    "socket.io": "^4.4.0"
+  }
+}
